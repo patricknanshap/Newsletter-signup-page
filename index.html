@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form_container">
+            <div class="content">
+                <h2>Stay Update</h2>
+                <p>Join 60,000+ product managers receiving monthly<br> updates on:</p>
+                <ul>
+                    <li><img src="icon-success.svg" alt="" width="20" height="20">
+                        <p>Product discovery and building what matters</p>
+                    </li>
+                    <li><img src="icon-success.svg" alt="" width="20" height="20">
+                        <p>Measuring to ensure updates are a success</p>
+                    </li>
+                    <li><img src="icon-success.svg" alt="" width="20" height="20">
+                        <p>And much more!</p>
+                    </li>
+                </ul>
+                <div class="error">
+                    <label for="email">Email address</label>
+                    <p class="error"></p>
+                </div>
+                <form action="#">
+                    <input type="email" placeholder="email@company.com"><br>
+                    <button type="button" class="subscribe_btn">Subscribe to monthly newsletter</button>
+                </form>
+            </div>
+            <div class="img-content">
+                <img src="illustration-sign-up-desktop.svg" alt="" width="380" height="447">
+            </div>
+            <div class="success_message hide">
+                <img src="icon-success.svg" alt="">
+                <h2>Thanks for<br> subscribing!</h2>
+
+                <p>A confirmation email has been<br> sent to ash@loremcompany.com.<br>
+                    Please open it and click the<br> button inside to confirm<br> your subscription.</p>
+                <button type="button" class="btn_dismiss">Dissmiss message</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
